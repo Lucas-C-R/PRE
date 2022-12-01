@@ -47,4 +47,4 @@ Pr_c_teo = normcdf((3 - 3) / sqrt(1)) - normcdf((2 - 3) / sqrt(1))
 % d) Pr[X2 - X4 > 4]
 
 Pr_d_sim = mean((X2 - X4) > 4)
-Pr_d_teo = normcdf(0 / sqrt(2)) + normcdf(0 / sqrt(4)) - normcdf(4 / sqrt(6))
+Pr_d_teo = 1 - normcdf((4-0)/sqrt(6))
